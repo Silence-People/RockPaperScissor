@@ -2,9 +2,12 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background-color: #E9E6FF;
+}
 
 .heading{
-    background-color:#6b0f1a ;
+    background-color:#73683b ;
     height: 12vh;
     line-height: 12vh;
     text-align: center;
@@ -14,30 +17,31 @@ h1{
     color: #dce0d9;
 }
 .rules{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     width: 100%;
-    background-color: #731dd8;
+    background-color: #B0A084;
+    height: 150px;
+    width: 250px;
+    position: relative;
+    top: 20px;
+    left: 300px;
+    border: 2px solid black;
 
 }
 .main-heading{
     font-size: 30px;
-    color: #d4b483;
-    margin-top: 5px;
-    text-align: center;
-}
+    color: #13262F;
+    text-decoration: underline;
 
-.list{
-    list-style: numbers;
+}
+ul{
+    list-style-type:disc;
     margin: 10px;
-    color: #d4b483;
+    color: #13262F;
     font-size: 20px;
 }
 .second-heading{
     font-size: 30px;
-    color: red;
+    color: #583E23;
     margin: 10px;
     text-align: center;
 

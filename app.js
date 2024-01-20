@@ -21,13 +21,13 @@ const drawGame = () =>{   //in case of a draw.
 
 const showWinner = (userWin, userChoice, compChoice) =>{ // when there is a proper result.
     if (userWin) {
-        msg.innerText = `You WIN! Your ${userChoice} beats ${compChoice}`;
+        msg.innerText = `You WIN! Your ${userChoice.toUpperCase()} beats ${compChoice.toUpperCase()}!`;
         msg.style.backgroundColor ="green";
         userScore++;
         userScorePara.innerText = userScore;
         console.log(userScorePara);
     }else{
-        msg.innerText = `You LOSE! ${compChoice} beats your ${userChoice}`;
+        msg.innerText = `You LOSE! ${compChoice.toUpperCase()} beats your ${userChoice.toUpperCase()}!`;
         msg.style.backgroundColor ="red";
         compScore++;
         compScorePara.innerText = compScore;
